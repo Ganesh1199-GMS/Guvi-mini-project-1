@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-29T07:35:53 IST" name="Suite" finished-at="2024-12-29T07:36:17 IST" duration-ms="23983">
+    <groups>
+    </groups>
+    <test started-at="2024-12-29T07:35:53 IST" name="Test" finished-at="2024-12-29T07:36:17 IST" duration-ms="23983">
+      <class name="tests.TS_006_PurchaseTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TS_006_PurchaseTest@76494737]" started-at="2024-12-29T07:35:54 IST" name="openBrowser" finished-at="2024-12-29T07:35:58 IST" duration-ms="4338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="purchaseFunctionality()[pri:0, instance:tests.TS_006_PurchaseTest@76494737]" started-at="2024-12-29T07:35:58 IST" name="purchaseFunctionality" finished-at="2024-12-29T07:36:17 IST" duration-ms="19576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseFunctionality -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.TS_006_PurchaseTest@76494737]" started-at="2024-12-29T07:36:17 IST" name="takeScreenshot" finished-at="2024-12-29T07:36:17 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseFunctionality status=SUCCESS method=TS_006_PurchaseTest.purchaseFunctionality()[pri:0, instance:tests.TS_006_PurchaseTest@76494737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- tests.TS_006_PurchaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
